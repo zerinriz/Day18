@@ -1,0 +1,97 @@
+header .container {
+    background-color: gray;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 120px;
+}
+header li { 
+    display: inline-block;
+    padding-left: 40px;
+    top: 0;
+}
+header ul { 
+    margin-right: 120px;
+    float: right;
+    padding-top: 0px;
+}
+#showcase .container {
+    background-image: url(../img/gigi-logo.png);
+    filter: grayscale(100%);
+    height: 40%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    height: 65%;
+    background-position-y: 90px;
+}
+#showcase .container h1 { 
+    padding-top: 210px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight:500;
+}
+#showcase .container p { 
+    padding-top: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#branding {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #35424A;
+    height: 110px;
+    padding-left: 100px;
+}
+    .highlight {
+    color: #B64031;
+}
+.box h3 {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #B64031;
+    padding: 0.5em 10em;
+    width: 90%;
+    text-decoration: none;
+ }
+#html-logo img {
+    width: 100px;
+    height: 100px;
+    padding-top: 450px;
+    padding-left: 200px;
+}
+    .box h3 {
+    padding-left: 180px;
+        }
+    .box p {
+    padding-left: 90px;
+    text-align: left;
+    font-size:medium;
+    display: contents;
+}
+#css-logo img {
+    width:100px;
+    height: 100px;
+    float: right;
+    padding-top: 394px;
+    padding-right: 600px;
+}
+#js-logo img { 
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-top: 450px;
+    padding-right: 10px;
+}
